@@ -1,0 +1,27 @@
+#+title: Page
+#+author: HaskellHegemonie
+#+date: 2024-01-24
+#+OPTIONS: \n:t
+#+HTML_MATHJAX: align: left indent: 5em tagside: left
+#+exclude_tags: noexport
+
+* Das Virus ist der Teufel
+*und ist im Oasch daham*
+* Worth reading
+- anti-javascript [[https://www.gnu.org/philosophy/javascript-trap.html][doctrine]] #freejavascript
+- [[https://www.stallman.org/][legend]]
+- [[https://www.churchofemacs.org/][cleaning]]
+* LaTeX/Unicode addiction?
+- =C-x RET C-\=
+- =C-\=
+- [[https://github.com/emacsmirror/unicode-math-input][unicode-math-input]]
+- =C-x 8 RET=
+
+* Cringey
+1. [[https://rxbi.github.io][JavaHuso]]
+2. [[https://jiundji.github.io][young chinese boy]]
+   [[https://www.youtube.com/watch?v=jw_mocdk9tE&t=14s][荣耀归于中共]]
+3. [[https://werteunion.de/werteunion-partei/][union]]
+   a union is a data structure in which only one type from many available is stored.
+   They're sort of the cheap fake of enums in modern programming languages.
+   If you want to learn more about them click the link.
