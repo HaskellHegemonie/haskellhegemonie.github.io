@@ -1,4 +1,4 @@
-#+title: Page
+#+title: Speisekarte
 #+author: HaskellHegemonie
 #+date: 2024-01-24
 #+OPTIONS: \n:t
@@ -7,6 +7,12 @@
 
 * Das Virus ist der Teufel
 *und ist im Oasch daham*
+* Hausgemachte Spezialitäten
+** Stand for ze Emacs and kneel before ze Stallman
+- [[https://github.com/HaskellHegemonie/emacs-brotherhood][praise thee o emacs]]
+** Simon's toy
+- [[https://github.com/HaskellHegemonie/haskell-pride][pride flag]]
+** Nix
 * Worth reading
 - anti-javascript [[https://www.gnu.org/philosophy/javascript-trap.html][doctrine]] #freejavascript
 - [[https://www.stallman.org/][legend]]
