@@ -24,9 +24,12 @@
 - =C-x 8 RET=
 
 * Cringey
-1. [[https://rxbi.github.io][JavaHuso]]
+1. [[https://www.reddit.com/user/JustAnotherShyFembo/][JavaHuso]]
+   [[https://www.youtube.com/watch?v=xomvsjKfMAw][ShavingForSaving]]
+   [[https://www.youtube.com/watch?v=nAmLc627z60][JanPropaganda]]
 2. [[https://jiundji.github.io][young chinese boy]]
    [[https://www.youtube.com/watch?v=jw_mocdk9tE&t=14s][荣耀归于中共]]
+   [[https://www.youtube.com/watch?v=5tCMI0uKbBE][Ji Livestream]]
 3. [[https://werteunion.de/werteunion-partei/][union]]
    a union is a data structure in which only one type from many available is stored.
    They're sort of the cheap fake of enums in modern programming languages.
