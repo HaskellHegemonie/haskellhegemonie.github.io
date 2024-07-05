@@ -38,8 +38,7 @@ A union (or coproduct if you're a chad) is a datastructure with one or more inje
 It consists of one or more fields that have their corresponding constructor to /inject/ into the datastructure.
 If you are given a union as an input you have to pattern match and return the result accordingly.
 
-* Org Mode, \[ \text{\LaTeX} \] and HTLM
-You can do this \[ \forall P \, Q : Prop, \neg (P \wedge Q) \iff (\neg P) \vee (\neg Q) \]
+* Org Mode, LaTeX and HTLM
 * Emacs
 
 ****There is no system but GNU, and Linux is one of its kernels.****
