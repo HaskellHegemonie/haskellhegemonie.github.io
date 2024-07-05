@@ -26,14 +26,14 @@
 - =C-x 8 e s=
 
 * Cringey
-***  [[https://www.reddit.com/user/JustAnotherShyFembo/][JavaHuso]]
+**  [[https://www.reddit.com/user/JustAnotherShyFembo/][JavaHuso]]
 1. [[https://www.youtube.com/watch?v=xomvsjKfMAw][ShavingForSaving]]
 2. [[https://www.youtube.com/watch?v=nAmLc627z60][JanPropaganda]]
-*** [[https://jiundji.github.io][young chinese boy]]
+** [[https://jiundji.github.io][young chinese boy]]
 1. [[https://www.youtube.com/watch?v=jw_mocdk9tE&t=14s][荣耀归于中共]]
 2. [[https://www.youtube.com/watch?v=5tCMI0uKbBE][Ji Livestream]]
-***  [[https://www.codingame.com/profile/45bbdc919d57dd6b3c704cd7b1e7d1306212995/followers][Yappoccino]]
-*** [[https://werteunion.de/werteunion-partei/][union]]
+**  [[https://www.codingame.com/profile/45bbdc919d57dd6b3c704cd7b1e7d1306212995/followers][Yappoccino]]
+** [[https://werteunion.de/werteunion-partei/][union]]
 A union (or coproduct if you're a chad) is a datastructure with one or more injective functions.
 It consists of one or more fields that have their corresponding constructor to /inject/ into the datastructure.
 If you are given a union as an input you have to pattern match and return the result accordingly.
