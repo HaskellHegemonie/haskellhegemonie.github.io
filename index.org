@@ -1,10 +1,11 @@
 #+title: Speisekarte
 #+author: HaskellHegemonie
+#+email: haskellisierer@proton.me
 #+date: 2024-01-24
-#+OPTIONS: \n:t
+#+setupfile: org-html-themes/org/theme-readtheorg-local.setup
 #+HTML_MATHJAX: align: left indent: 5em tagside: left
-#+exclude_tags: noexport
-
+#+options: \n:t
+#+options: tex:dvipng toc:t num:t
 * Das Virus ist der Teufel
 *und ist im Oasch daham*
 * Hausgemachte Spezialitäten
@@ -20,17 +21,25 @@
 * LaTeX/Unicode addiction?
 - =C-x RET C-\=
 - =C-\=
-- [[https://github.com/emacsmirror/unicode-math-input][unicode-math-input]]
+- [[https://agda.readthedocs.io/en/latest/tools/emacs-mode.html][Agda input method]]
 - =C-x 8 RET=
+- =C-x 8 e s=
 
 * Cringey
-1. [[https://www.reddit.com/user/JustAnotherShyFembo/][JavaHuso]]
-   [[https://www.youtube.com/watch?v=xomvsjKfMAw][ShavingForSaving]]
-   [[https://www.youtube.com/watch?v=nAmLc627z60][JanPropaganda]]
-2. [[https://jiundji.github.io][young chinese boy]]
-   [[https://www.youtube.com/watch?v=jw_mocdk9tE&t=14s][荣耀归于中共]]
-   [[https://www.youtube.com/watch?v=5tCMI0uKbBE][Ji Livestream]]
-3. [[https://werteunion.de/werteunion-partei/][union]]
-   a union is a data structure in which only one type from many available is stored.
-   They're sort of the cheap fake of enums in modern programming languages.
-   If you want to learn more about them click the link.
+***  [[https://www.reddit.com/user/JustAnotherShyFembo/][JavaHuso]]
+1. [[https://www.youtube.com/watch?v=xomvsjKfMAw][ShavingForSaving]]
+2. [[https://www.youtube.com/watch?v=nAmLc627z60][JanPropaganda]]
+*** [[https://jiundji.github.io][young chinese boy]]
+1. [[https://www.youtube.com/watch?v=jw_mocdk9tE&t=14s][荣耀归于中共]]
+2. [[https://www.youtube.com/watch?v=5tCMI0uKbBE][Ji Livestream]]
+***  [[https://www.codingame.com/profile/45bbdc919d57dd6b3c704cd7b1e7d1306212995/followers][Yappoccino]]
+*** [[https://werteunion.de/werteunion-partei/][union]]
+A union (or coproduct if you're a chad) is a datastructure with one or more injective functions.
+It consists of one or more fields that have their corresponding constructor to /inject/ into the datastructure.
+If you are given a union as an input you have to pattern match and return the result accordingly.
+
+* Org Mode, \[ \text{\LaTeX} \] and HTLM
+You can do this \[ \forall P \, Q : Prop, \neg (P \wedge Q) \iff (\neg P) \vee (\neg Q) \]
+* Emacs
+
+****There is no system but GNU, and Linux is one of its kernels.****
