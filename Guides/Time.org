@@ -1,0 +1,46 @@
+** Info
+Look at the elisp time manual for more information 
+** uptime
+Ever typed ~uptime~ into your terminal and realised your computer has
+been running for more than 12 hours?
+
+You can get the same experience in emacs with the interactive function
+#+begin_src elisp
+  (emacs-uptime)
+#+end_src
+(Normally this command is redundant as it should return the same time as regular ~uptime~)
+
+** time in Emacs
+The variable =current-time-list= specifies the format
+*** Telling the time
+#+begin_src elisp
+  (current-time) ;; returns emacs internal structure
+  (current-time-string) ;; human readable string of the current time
+#+end_src
+*** Formatting time
+#+begin_src elisp
+  (format-time-string "%Y-%M-%dT:%H:%M:%S") ;; to get an ISO8601 String for example
+#+end_src
+*** Emacs' Timestructure
+#+begin_src elisp
+  (decode-time) ;; returns time as a list of
+  ;; Seconds Minutes Hours Day Month Year DOW(Day of Week) DST(Daylight saving time) UTCOFF
+#+end_src
+** Get the week of an iso8601 time string
+Conveniently there exists a function called ~iso8601-parse~
+that can turn iso8601 strings into the ~decode-time~ format.
+Now if you want to run ~encode-time~ on the output of ~iso8601-parse~
+to then supply it as the time to ~(format-time-string "%U")~ to get the current week, you'd
+need to specify the whole iso8601 time string. Yes: The Year, Month, Day, Hours, Minutes and Seconds because
+otherwise ~iso8601-parse~ fills unknown values with ~nil~ which then ~encode-time~ can't parse.
+To circumvent this just define the simple function
+#+begin_src elisp
+  (defalias 'λ 'lambda)
+  (defun hsheg/iso8601-better-parse (str)
+    (encode-time (mapcar (λ (x) (if (eq x nil) 0 x)) (iso8601-parse str)))
+    )
+#+end_src
+And then you can happily format the time to get the week
+#+begin_src elisp
+  (format-time-string "%U" (hsheg/iso8601-better-parse "2024-01-24"))
+#+end_src

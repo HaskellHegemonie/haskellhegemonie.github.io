@@ -1,0 +1,13 @@
+** Buffer and Filename functions
+#+begin_src elisp
+  (buffer-file-name)
+  (expand-file-name "testing.org")
+  (file-name-base)
+  (file-name-extension (buffer-file-name))
+  (file-name-split (buffer-file-name))
+#+end_src
+
+** copy
+#+begin_src elisp
+  (kill-new (buffer-file-name))
+#+end_src
